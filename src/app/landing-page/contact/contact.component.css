@@ -1,0 +1,27 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+    padding-bottom: 75px;
+}
+.contact-title {
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+}
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 70vw;
+}
+.contact-content-text {
+    padding-top: 75px;
+}
+.contact-form {
+    padding-top: 75px;
+}
+input, textarea {
+    margin-bottom: 20px;
+}

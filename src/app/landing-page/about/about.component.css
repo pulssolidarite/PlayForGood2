@@ -1,0 +1,60 @@
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about-title {
+    text-align: center;
+    margin: auto;
+    padding: 100px 0 75px 0;
+}
+.about-text, .about-text-recap {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    padding: 0 0 100px 0;
+}
+a {
+    text-decoration: none;
+    color: #C82FC6;
+}
+a:hover {
+    color: #40CFCB;
+}
+.about-recap {
+    background-color: black;
+    color: white;
+}
+.about-title-recap {
+    text-align: center;
+    margin: auto;
+    padding: 75px 0 75px 0;
+}
+.about-text-recap {
+    padding-bottom: 50px;
+}
+.about-img-recap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding-bottom: 100px;
+    width: 70vw;
+    justify-content: space-around;
+}
+.about-price-recap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px 0 20px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+img {
+    width: 106px;
+    height: 136px;
+}
+.about-img-recap-flappychamp {
+    width: 160px;
+    height: 140px;
+}

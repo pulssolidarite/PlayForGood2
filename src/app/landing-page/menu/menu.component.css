@@ -1,0 +1,9 @@
+button {
+    border: 0;
+}
+.navbar-nav {
+    justify-content: center;
+}
+.icon-log {
+    justify-content: flex-end;
+}

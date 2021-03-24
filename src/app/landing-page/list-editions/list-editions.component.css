@@ -1,0 +1,40 @@
+.list-editions {
+    display: flex;
+    flex-direction: column;
+}
+.edition-flappy, .edition-riot {
+    overflow: hidden;
+}
+.edition-flappy-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://dwgkia.gg/_nuxt/img/1397752.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    transition: all 1s;
+}
+.edition-riot-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("https://dwgkia.gg/_nuxt/img/79617bb.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    transition: all 1s;
+}
+.edition-riot-content, .edition-flappy-content {
+    color: white;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.edition-flappy-banner:hover, .edition-riot-banner:hover {
+    transform: scale(1.1);
+}
+.btn {
+    width: 100px;
+}
