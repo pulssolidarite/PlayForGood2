@@ -1,0 +1,16 @@
+.navbar {
+    background-color: #0077C8 !important;
+}
+.nav-link {
+    color: white !important;
+}
+.dropdown-menu {
+    background-color: #FABE00 !important;
+}
+.dropdown-item {
+    color: white !important;
+}
+.logo-pfg {
+    max-width: 100%;
+    max-height: 100px;
+}

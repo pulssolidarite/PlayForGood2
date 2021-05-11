@@ -1,2 +1,108 @@
-<p>edition2 works!</p>
+<app-menu-riot></app-menu-riot>
+<app-carousel-pfg2></app-carousel-pfg2>
+<div class="donation">
+    <div class="donation-content">
+        <p>Pour le Play For Good Edition #2, <a href="https://handicap-international.fr/" target="_blank">Handicap
+            International</a> est l’association partenaire !<br>
+            Du 28 mai au 30 mai 2021,
+            l’eSport sera au centre du concept et vecteur de plus d’inclusion et de partage.</p>
+        <p>Préparez vos stratégies, vos picks, vos builds, vos decks et Play For Handicap International !</p>
+        <a href="https://playforgood.io/donation/" target="_blank">
+            <button class="btn btn-donation text-uppercase">Faire un don</button>
+        </a>
+    </div>
+</div>
+<div class="games">
+    <div class="games-content">
+        <h4 class="text-uppercase">Les jeux de l'édition</h4>
+        <div class="games-content-logo">
+            <div class="games-content-logo-item">
+                <img src="https://playforgood.io/wp-content/uploads/2021/04/logo-legends-of-runeterra-300x95.png"
+                     alt="logo-legends-of-runeterra" class="img-logo">
+                <button class="btn btn-logo text-uppercase" [routerLink]="['/edition-riot/legends-of-runeterra']">Plus
+                    d'informations
+                </button>
+            </div>
+            <div class="games-content-logo-item">
+                <img src="https://playforgood.io/wp-content/uploads/2021/04/logo-league-of-legends-300x127.png"
+                     alt="logo-league-of-legends" class="img-logo">
+                <button class="btn btn-logo text-uppercase" [routerLink]="['/edition-riot/league-of-legends']">Plus
+                    d'informations
+                </button>
+            </div>
+            <div class="games-content-logo-item">
+                <img src="https://playforgood.io/wp-content/uploads/2021/04/logo-teamfight-tactis-300x84.png"
+                     alt="logo-teamfigth-tactic" class="img-logo">
+                <button class="btn btn-logo text-uppercase" [routerLink]="['/edition-riot/teamfight-tactics']">Plus
+                    d'informations
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="shop">
+    <div class="shop-content">
+        <h4 class="text-uppercase">Boutique</h4>
+        <div class="shop-content-item">
+            <div class="shop-content-item-text">
+                <p>Vous souhaitez porter les couleurs du Play For Good et continuer à<br> soutenir Handicap
+                    International ?</p>
+                <p>Pas de problème, découvrez notre t-shirt connecté et devenez un acteur<br> de la Tech For Good !</p>
+                <a href="https://playforgood.io/boutique/" target="_blank">
+                    <button class="btn btn-shop text-uppercase">Découvrir</button>
+                </a>
+            </div>
+            <div class="shop-content-item-img">
+                <img src="https://playforgood.io/wp-content/uploads/2021/04/1-02-300x300.jpg"
+                     alt="image-tshirt" class="img-shop">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="partners">
+    <div class="partners-content">
+        <h4 class="text-uppercase">Partenaires de cette édition</h4>
+        <div class="partners-content-logo">
+            <div class="partners-content-item">
+                <img
+                    src="https://playforgood.io/wp-content/uploads/2021/04/l_handicap_descript_fr_horiz_blue_rgb-300x180.png"
+                    alt="logo-handicap-international">
+                <p>Handicap International est une association de solidarité internationnale<br>
+                    indépendant, qui intervient dans les situations de pauvreté et d'exclusion,<br>
+                    de conflits et de catastrophes.
+                </p>
+            </div>
+            <div class="partners-content-item">
+                <img src="https://playforgood.io/wp-content/uploads/2021/04/logo-puls-impact_sans-fond-300x180.png"
+                     alt="logo-puls-impact">
+                <p>Puls Impact est une startup spécialisée dans le développement et la<br>
+                    démocratisation de solutions innovantes de générosité.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact">
+    <div class="contact-title">
+        <h3>Vous souhaitez nous contactez ?</h3>
+    </div>
+    <div class="contact-content">
+        <div class="contact-content-text col-sm-12 col-md-4">
+            <p>Vous souhaitez rester informé ou devenir sponsor pour la prochaine édition du Play For Good Challenge
+                ?</p>
+            <p>Laissez nous un message :</p>
+        </div>
+        <div class="contact-form col-sm-12 col-md-4">
+            <form>
+                <label for="inputEmail" class="form-label">Adresse e-mail</label>
+                <input id="inputEmail" type="email" class="form-control">
+                <label for="textarea" class="form-label">Votre message</label>
+                <textarea id="textarea" class="form-control" rows="3"></textarea>
+                <input class="form-check-input" type="checkbox" id="rgpdCheck">
+                <label class="form-check-label" for="rgpdCheck">J'accepte que mes données soient conservées</label>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </div>
+</div>
+<app-footer-pfg2></app-footer-pfg2>
 <app-scroll-to-top></app-scroll-to-top>

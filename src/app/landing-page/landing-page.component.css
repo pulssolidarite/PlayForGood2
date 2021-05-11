@@ -1,0 +1,7 @@
+.background-img {
+    background-image: url("https://playforgood.io/wp-content/uploads/2021/01/acceuil-play-for-good.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}

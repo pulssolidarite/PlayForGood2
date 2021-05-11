@@ -21,7 +21,7 @@ a:hover {
     color: #40CFCB;
 }
 .about-recap {
-    background-color: black;
+    background-color: #bf8686;
     color: white;
 }
 .about-title-recap {
@@ -45,7 +45,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     margin: 0 20px 0 20px;
-    color: yellow;
+    color: black;
     font-weight: bold;
     text-align: center;
     font-size: 20px;

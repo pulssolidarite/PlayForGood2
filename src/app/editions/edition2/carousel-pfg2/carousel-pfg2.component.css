@@ -1,0 +1,15 @@
+.carousel-item {
+    background-position: bottom right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.img-1 {
+    background-image: url("https://playforgood.io/wp-content/uploads/2021/05/hand-logo-good.png");
+}
+.img-2 {
+    background-image: url("https://playforgood.io/wp-content/uploads/2021/05/Donate-logo-good.png");
+}
+.img-3 {
+    background-image: url("https://playforgood.io/wp-content/uploads/2021/05/Players-logo-good.png");
+}

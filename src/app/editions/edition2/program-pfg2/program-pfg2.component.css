@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.program-title {
+    margin: auto;
+    padding: 40px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.program-cards {
+    display: flex;
+    flex-direction: column;
+}
+.d-flex {
+}
+.card {
+    background-color: #F6F6F6;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px grey;
+    margin-bottom: 40px;
+}
+.list-group-item {
+    background-color: #F6F6F6;
+}
+.card-title {
+    text-align: center;
+}
+.card-hour {
+    color: #1da1f2;
+    font-weight: 500;
+}
+.card-event {
+    color: black;
+    font-weight: bold;
+}

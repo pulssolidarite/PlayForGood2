@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CarouselComponent } from './carousel.component';
+import { AboutPfg2Component } from './about-pfg2.component';
 
-describe('CarouselComponent', () => {
-  let component: CarouselComponent;
-  let fixture: ComponentFixture<CarouselComponent>;
+describe('AboutPfg2Component', () => {
+  let component: AboutPfg2Component;
+  let fixture: ComponentFixture<AboutPfg2Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CarouselComponent ]
+      declarations: [ AboutPfg2Component ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CarouselComponent);
+    fixture = TestBed.createComponent(AboutPfg2Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

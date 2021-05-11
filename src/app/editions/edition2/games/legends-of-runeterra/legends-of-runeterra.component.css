@@ -1,0 +1,45 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+img {
+    width: 100%;
+}
+.lor-info {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.widget {
+    width: 100%;
+    background-color: #1da1f2;
+    color: white;
+    padding-bottom: 50px;
+}
+.widget-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h5 {
+    margin: 50px;
+    font-weight: bold;
+}
+iframe {
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #FABE00;
+}
