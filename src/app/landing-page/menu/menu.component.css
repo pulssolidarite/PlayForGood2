@@ -7,3 +7,14 @@ button {
 .icon-log {
     justify-content: flex-end;
 }
+.navbar {
+    background-color: #011c40 !important;
+    color: white !important;
+}
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+.logo-pfg {
+    max-width: 100%;
+    max-height: 100px;
+}

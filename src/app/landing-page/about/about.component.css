@@ -1,6 +1,8 @@
 .about {
     display: flex;
     flex-direction: column;
+    background-color: #011c40;
+    color: white;
 }
 .about-title {
     text-align: center;
@@ -21,8 +23,8 @@ a:hover {
     color: #40CFCB;
 }
 .about-recap {
-    background-color: #bf8686;
-    color: white;
+    background-color: white;
+    color: black;
 }
 .about-title-recap {
     text-align: center;

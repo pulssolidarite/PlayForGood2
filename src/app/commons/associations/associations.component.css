@@ -1,0 +1,11 @@
+.associations-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    min-height: 200px;
+}
+img {
+    height: 100px;
+}
